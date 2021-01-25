@@ -1,5 +1,9 @@
 # Lightstreams Smart Hub Client Example
 
+This is an example project written in React Native that demonstrates data that is stored in a decentralized manner with privacy controls. Alice uploads data from her mobile phone to her Smart Hub which gives a universal unique id (Meta hash) for addressing and retrieving the data. Alice then grants Bob permission to access the data using a Smart Contract that manages as the Access Control (ACL) permissions. Bob then connects to his own Smart Hub and pulls a copy of the data to there and then streams to his mobile phone. 
+
+For demonstration purposes, the same mobile phone applciation is storing the credentials of Alice and Bob.
+
 ## Requirements
 - node 14.15.4
 
